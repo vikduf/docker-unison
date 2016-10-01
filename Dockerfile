@@ -36,7 +36,7 @@ ENV TZ="Europe/Helsinki" \
 
 
 # Install unison server script
-COPY entrypoint.sh /entrypoint.sh
+ADD entrypoint.sh /entrypoint.sh
 
 VOLUME /unison
 
